@@ -222,7 +222,7 @@ form {
         height: 75%;
         background-color: darkgrey;
         min-height: 300px;
-        min-height: 250px;
+        min-width: 270px;
     }
     
     .modal-top h1 {
@@ -241,5 +241,6 @@ form {
 @media screen and (max-width:500px) { 
     .modal-items {
         min-width: 270px;
+        min-height: 330px;
     }
 }
