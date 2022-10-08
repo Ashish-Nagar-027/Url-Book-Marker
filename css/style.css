@@ -219,8 +219,10 @@ form {
    
     .modal-items {
         width: 50%;
-        height: 50%;
+        height: 75%;
         background-color: darkgrey;
+        min-height: 300px;
+        min-height: 250px;
     }
     
     .modal-top h1 {
@@ -234,4 +236,10 @@ form {
         margin: 0.8rem;
     }
     
+}
+
+@media screen and (max-width:500px) { 
+    .modal-items {
+        min-width: 270px;
+    }
 }
