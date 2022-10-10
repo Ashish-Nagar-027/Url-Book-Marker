@@ -59,7 +59,7 @@ function submitBtn(e) {
             warningText.classList.add('text-show')
             setTimeout(() => {
                 warningText.classList.remove('text-show')
-            }, 1000);
+            }, 3000);
         }
     }
 }
